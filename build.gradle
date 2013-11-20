@@ -8,4 +8,5 @@ dependencies {
     testCompile 'org.hamcrest:hamcrest-all:1.3'
     testCompile "junit:junit:4.+"
     testCompile "org.mockito:mockito-all:1.8.4"
+    testCompile "org.seleniumhq.selenium:selenium-java:2.35.0"
 }
