@@ -8,7 +8,7 @@ import static org.junit.Assert.assertThat;
 
 public class GoogleSearchTest {
     @Test
-    public void shouldReturnTW() {
+    public void shouldLogin() {
         WebDriver chromeDriver = new ChromeDriver();
         chromeDriver.get("http://127.0.0.1:8080/bbs_team_a");
         chromeDriver.findElement(By.id("j_username")).sendKeys("juntao");
