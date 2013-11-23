@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertThat;
 
-public class GoogleSearchTest {
+public class LoginTest {
     @Test
     public void shouldLogin() {
         WebDriver chromeDriver = new ChromeDriver();

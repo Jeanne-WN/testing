@@ -19,7 +19,7 @@ public class MailClientTest {
 
     @Test
     public void shouldReturnFailed() {
-        mailService = new MockMailService();
+        mailService = new StubMailService();
         mailClient = new MailClient(mailService);
 
         String result = mailClient.send("This is a email.");
